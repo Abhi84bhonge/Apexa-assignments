@@ -1,0 +1,955 @@
+Version,Type,Class file format version,Release date,End of public updates (free),End of extended support (paid),Release,Highlights
+"Old version, no longer maintained: JDK 1.0",-,45[8],23rd January 1996,May-96,—,-,-
+"Old version, no longer maintained: JDK 1.1",-,45,18th February 1997,Oct-02,—,-,-
+"Old version, no longer maintained: J2SE 1.2",-,46,4th December 1998,Nov-03,—,-,-
+"Old version, no longer maintained: J2SE 1.3",-,47,8th May 2000,Mar-06,—,-,-
+"Old version, no longer maintained: J2SE 1.4",-,48,13th February 2002,Oct-08,—,-,-
+"Old version, no longer maintained: J2SE 5.0 (1.5)",-,49,30th September 2004,Oct-09,—,-,-
+"Old version, no longer maintained: Java SE 6 (1.6)",-,50,11th December 2006,April 2013 for OracleDecember 2018 for Azul[9],December 2016 for Red Hat[10]October 2018 for Oracle[11]December 2027 for Azul[9]March 2028 for BellSoft Liberica[12],-,-
+"Old version, no longer maintained: Java SE 7 (1.7)",-,51,28th July 2011,July 2015 for OracleJuly 2022 for Azul[9]September 2022 for IBM Java SDK[13],June 2020 for Red Hat[10]July 2022 for Oracle[14]December 2027 for Azul[9]March 2028 for BellSoft Liberica[12],-,-
+"Old version, yet still maintained: Java SE 8 (1.8)",LTS,52,18th March 2014,April 2019 for OracleNovember 2026 for Eclipse Temurin[15]November 2026 for Red Hat[10]November 2026 for Azul[9]December 2030 for Amazon Corretto[16]April 2025 for IBM Java SDK[13]November 2026 for IBM Semeru Runtimes[17],December 2030 for Oracle[4]December 2030 for Azul[9]March 2031 for BellSoft Liberica[12],-,-
+"Old version, no longer maintained: Java SE 9 (1.9)",-,53,21st September 2017,Mar-18,—,-,-
+"Old version, no longer maintained: Java SE 10 (1.10)",-,54,20th March 2018,Sep-18,—,-,-
+"Old version, yet still maintained: Java SE 11",LTS,55,25th September 2018,April 2019 for OracleSeptember 2027 for Microsoft Build of OpenJDK[18]October 2024 for Red Hat[10]October 2027 for Eclipse Temurin[15]October 2027 for Azul[9]January 2032 for Amazon Corretto[16]January 2032 for Azul[9]October 2027 for IBM Semeru Runtimes[17],January 2032 for Azul[9]March 2032 for BellSoft Liberica[12]October 2027 for Red Hat[10]January 2032 for Oracle[4],-,-
+"Old version, no longer maintained: Java SE 12",-,56,19th March 2019,Sep-19,—,-,-
+"Old version, no longer maintained: Java SE 13",-,57,17th September 2019,Mar-20,—,-,-
+"Old version, no longer maintained: Java SE 14",-,58,17th March 2020,Sep-20,—,-,-
+"Old version, no longer maintained: Java SE 15",-,59,16th September 2020,Mar-21,—,-,-
+"Old version, no longer maintained: Java SE 16",-,60,16th March 2021,Sep-21,—,-,-
+"Old version, yet still maintained: Java SE 17",LTS,61,14th September 2021,September 2024 for Oracle[4]September 2027 for Microsoft Build of OpenJDK[18]October 2027 for Eclipse Temurin[15]October 2027 for Red Hat[10]October 2029 for Amazon Corretto[16]September 2029 for Azul[9]October 2027 for IBM Semeru Runtimes[17],September 2029 for Oracle[4]March 2030 for BellSoft Liberica[12],-,-
+"Old version, no longer maintained: Java SE 18",-,62,22nd March 2022,Sep-22,—,-,-
+"Old version, no longer maintained: Java SE 19",-,63,20th September 2022,Mar-23,—,-,-
+"Old version, no longer maintained: Java SE 20",-,64,21st March 2023,Sep-23,—,-,-
+"Old version, yet still maintained: Java SE 21",LTS,65,19th September 2023,September 2028 for Oracle[4]September 2028 for Microsoft Build of OpenJDK[18]December 2029 for Red Hat[10]December 2029 for Eclipse Temurin[15]October 2030 for Amazon Corretto[16]September 2031 for Azul[9]December 2029 for IBM Semeru Runtimes[17],September 2031 for Oracle[4]March 2032 for BellSoft Liberica[12],-,-
+"Old version, no longer maintained: Java SE 22",-,66,19th March 2024,Sep-24,—,-,-
+Current stable version: Java SE 23,-,67,17th September 2024,March 2025 for OracleSeptember 2032 for Azul[9]March 2025 for IBM Semeru Runtimes[17],—,-,-
+Future release: Java SE 24,-,68,Mar-25,Sep-25,—,-,-
+Future release: Java SE 25,LTS,69,Sep-25,September 2030 for Oracle[4],September 2033 for Oracle[4]March 2034 for BellSoft Liberica[12],-,-
+"Legend:Old version, not maintainedOld version, still maintainedLatest versionLatest preview versionFuture release",-,-,-,-,-,-,-
+-,-,-,23-12-2006,-,-,Java SE 6,"This release adds many enhancements in the fields of Web services, scripting, databases, pluggable annotations, and security, as well as quality, compatibility, and stability. JConsole is now officially supported. Java DB support has been added."
+-,-,-,07-05-2007,-,-,Java SE 6 Update 1[citation needed],-
+-,-,-,03-07-2007,-,-,Java SE 6 Update 2[citation needed],-
+-,-,-,03-10-2007,-,-,Java SE 6 Update 3[citation needed],-
+-,-,-,14-01-2008,-,-,Java SE 6 Update 4[citation needed],HotSpot VM 10
+-,-,-,05-03-2008,-,-,Java SE 6 Update 5[citation needed],"Several security flaws were eliminated. New root certificates from AOL, DigiCert, and TrustCenter are now included."
+-,-,-,16-04-2008,-,-,Java SE 6 Update 6[citation needed],A workaround for the infamous Xlib/XCB locking assertion issue was introduced. A memory leak when using Kerberos authentication with LoginContext was fixed. Several other bugs were fixed.
+-,-,-,-,-,-,Java SE 6 Update 7[citation needed],"Unofficially, Java SE 6 Update 7 (1.6.0.7) is the last version of Java that was shown to be working on the Win9x family of operating systems[citation needed]"
+-,-,-,15-10-2008,-,-,Java SE 6 Update 10[citation needed],"HotSpot VM 11. Major changes for this update include:
+Java Deployment Toolkit, a set of JavaScript functions to ease the deployment of applets and Java Web Start applications.[52]
+Java Kernel, a small installer including only the most commonly used JRE classes. Other packages are downloaded when needed.
+Enhanced updater.
+Enhanced versioning and pack200 support: server-side support is no longer required.[52]
+Java Quick Starter, to improve cold start-up time.
+Improved performance of Java2D graphics primitives on Windows, using Direct3D and hardware acceleration.
+A new Swing look and feel called Nimbus and based on synth.[53]
+Next-Generation Java Plug-In: applets now run in a separate process and support many features of Web Start applications.[52]"
+-,-,-,03-12-2008,-,-,Java SE 6 Update 11[54] [citation needed],13 security fixes[citation needed]
+-,-,-,12-12-2008,-,-,Java SE 6 Update 12[citation needed],No security fixes; 64-bit Java plug-in (for 64-bit web browsers only); Windows Server 2008 support; performance improvements of graphics and JavaFX applications
+-,-,-,24-03-2009,-,-,Java SE 6 Update 13[citation needed],"7 security fixes, JNDI store and retrieve Java objects in LDAP slightly modified, JMX Change (createMBeanunregisterMBean), 4 new root certificates added"
+-,-,-,28-05-2009,-,-,Java SE 6 Update 14[citation needed],"HotSpot VM 14. This release includes extensive performance updates to the JIT compiler, compressed pointers for 64-bit machines, as well as support for the G1 (Garbage First) low-pause garbage collector.[55][56]
+The -XX:+DoEscapeAnalysis option directs the HotSpot JIT compiler to use escape analysis to determine whether local objects can be allocated on the stack instead of the heap.[citation needed]
+Some developers have noticed an issue introduced in this release which causes debuggers to miss breakpoints seemingly randomly.[57] Sun has a corresponding bug, which is tracking the issue. The workaround applies to the Client and Server VMs.[58] Using the -XX:+UseParallelGC option will prevent the failure. Another workaround is to roll back to update 13, or to upgrade to update 16."
+-,-,-,04-08-2009,-,-,Java SE 6 Update 15[citation needed],Introduced patch-in-place functionality
+-,-,-,11-08-2009,-,-,Java SE 6 Update 16[citation needed],Fixed the issue introduced in update 14 which caused debuggers to miss breakpoints
+-,-,-,04-11-2009,-,-,Java SE 6 Update 17[citation needed],Security fixes; two new root certificates
+-,-,-,13-01-2010,-,-,Java SE 6 Update 18[citation needed],"No security fixes; Hotspot VM 16; support for Ubuntu 8.04 LTS Desktop Edition, SLES 11, Windows 7, Red Hat Enterprise Linux 5.3, Firefox 3.6, VisualVM 1.2; updated Java DB; many performance improvements"
+-,-,-,30-03-2010,-,-,Java SE 6 Update 19[citation needed],"Security fixes; root certificate changes: seven new, three removed, five replaced with stronger signature algorithms; interim fix for TLS renegotiation attack"
+-,-,-,15-04-2010,-,-,Java SE 6 Update 20[citation needed],2 security fixes
+-,-,-,07-07-2010,-,-,Java SE 6 Update 21[citation needed],"No security fixes; Hotspot VM 17; support for Red Hat Enterprise Linux 5.4 and 5.5, Oracle Enterprise Linux 4.8, 5.4, 5.5; Google Chrome 4 support; support for Customized Loading Progress Indicators; VisualVM 1.2.2"
+-,-,-,12-10-2010,-,-,Java SE 6 Update 22[citation needed],29 security fixes; RFC 5746 support
+-,-,-,08-12-2010,-,-,Java SE 6 Update 23[citation needed],No security fixes; Hotspot VM 19; better support for right-to-left languages
+-,-,-,15-02-2011,-,-,Java SE 6 Update 24[citation needed],21 security fixes; updated Java DB
+-,-,-,21-03-2011,-,-,Java SE 6 Update 25[citation needed],"No security fixes; Hotspot VM 20; support for Internet Explorer 9, Firefox 4 and Chrome 10; improved BigDecimal; includes ""tiered"" compilation in the Server VM that enables it to start quickly as does the Client VM, while achieving better peak performance (this feature is enabled by specifying -server and -XX:+TieredCompilation command options)"
+-,-,-,07-06-2011,-,-,Java SE 6 Update 26[citation needed],17 new security fixes;[59] last version compatible with Windows Vista SP1
+-,-,-,16-08-2011,-,-,Java SE 6 Update 27[citation needed],No security fixes; certification for Firefox 5
+-,-,-,18-10-2011,-,-,Java SE 6 Update 29[citation needed],"20 security fixes, various bug fixes[60]"
+-,-,-,12-12-2011,-,-,Java SE 6 Update 30[citation needed],No security fixes; fix for SSL regression in Update 29; support for Red Hat Enterprise Linux 6
+-,-,-,14-02-2012,-,-,Java SE 6 Update 31[citation needed],14 security fixes and one bug fix; last version work reliably for Windows 2000[61]
+-,-,-,26-04-2012,-,-,Java SE 6 Update 32[citation needed],"No security fixes, various bug fixes"
+-,-,-,12-06-2012,-,-,Java SE 6 Update 33[citation needed],"14 security fixes, improved VM configuration file loading"
+-,-,-,14-08-2012,-,-,Java SE 6 Update 34[citation needed],"No security fixes, various bug fixes"
+-,-,-,30-08-2012,-,-,Java SE 6 Update 35[citation needed],Contains a security-in-depth fix[62]
+-,-,-,16-10-2012,-,-,Java SE 6 Update 37[citation needed],30 security fixes
+-,-,-,11-12-2012,-,-,Java SE 6 Update 38[citation needed],Various bug fixes[citation needed]
+-,-,-,01-02-2013,-,-,Java SE 6 Update 39[citation needed],50 security fixes
+-,-,-,19-02-2013,-,-,Java SE 6 Update 41[citation needed],5 security fixes
+-,-,-,04-03-2013,-,-,Java SE 6 Update 43[citation needed],2 security fixes
+-,-,-,16-04-2013,-,-,Java SE 6 Update 45[citation needed],42 security fixes;[63] other changes; final public update.[64]
+-,-,-,18-06-2013,-,-,Java SE 6 Update 51,"Not available publicly, only available through the Java SE Support program and in Apple Update for OS X Snow Leopard, Lion & Mountain Lion; up to 40 security fixes[65]"
+-,-,-,15-10-2013,-,-,Java SE 6 Update 65,"Not available publicly, only available through the Java SE Support program and in Apple Update for OS X Snow Leopard, Lion & Mountain Lion; at least 11 critical security fixes[66]"
+-,-,-,14-01-2014,-,-,Java SE 6 Update 71,Not available for public download; 33 fixes[citation needed]
+-,-,-,15-04-2014,-,-,Java SE 6 Update 75,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster no. #54; 25 security fixes[67]"
+-,-,-,15-07-2014,-,-,Java SE 6 Update 81,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 11 security fixes[68]"
+-,-,-,16-10-2014,-,-,Java SE 6 Update 85,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 18 security fixes[69]"
+-,-,-,21-01-2015,-,-,Java SE 6 Update 91,Linux x64 and Windows i586 versions are available as the Java SE 6 Reference Implementation.[70] Other versions are only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 15 security fixes[71]
+-,-,-,14-04-2015,-,-,Java SE 6 Update 95,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 14 security fixes[72]"
+-,-,-,15-07-2015,-,-,Java SE 6 Update 101,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 18 security fixes[73] Certification for IE 10 and 11 was introduced in 1.6.0_101"
+-,-,-,20-10-2015,-,-,Java SE 6 Update 105,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 17 security fixes[74]"
+-,-,-,20-01-2016,-,-,Java SE 6 Update 111,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 13 security fixes[75]"
+-,-,-,05-02-2016,-,-,Java SE 6 Update 113,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 1 security fix[76]"
+-,-,-,21-04-2016,-,-,Java SE 6 Update 115,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 8 security fixes[77]"
+-,-,-,19-07-2016,-,-,Java SE 6 Update 121,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 15 security fixes[78]"
+-,-,-,18-10-2016,-,-,Java SE 6 Update 131,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 13 security fixes[79]"
+-,-,-,17-01-2017,-,-,Java SE 6 Update 141,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 17 security fixes[80]"
+-,-,-,18-04-2017,-,-,Java SE 6 Update 151,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 10 security fixes[81]"
+-,-,-,18-07-2017,-,-,Java SE 6 Update 161,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 5 security fixes[82]"
+-,-,-,20-10-2017,-,-,Java SE 6 Update 171,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 7 security fixes[83]"
+-,-,-,16-01-2018,-,-,Java SE 6 Update 181,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 12 security fixes[84]"
+-,-,-,17-04-2018,-,-,Java SE 6 Update 191,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 7 security fixes[85]"
+-,-,-,17-07-2018,-,-,Java SE 6 Update 201,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 3 security fixes[86]"
+-,-,-,18-10-2018,-,-,Java SE 6 Update 211,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 8 security fixes[87]"
+-,-,-,28-07-2011,-,-,Java SE 7[115],Initial release; HotSpot VM 21
+-,-,-,18-10-2011,-,-,Java SE 7 Update 1[citation needed],"20 security fixes, other bug fixes"
+-,-,-,12-12-2011,-,-,Java SE 7 Update 2[citation needed],"No security fixes; HotSpot VM 22; reliability and performance improvements; support for Solaris 11 and Firefox 5 and later; JavaFX included with Java SE JDK, improvements for web-deployed applications"
+-,-,-,14-02-2012,-,-,Java SE 7 Update 3[citation needed],14 security fixes[116]
+-,-,-,26-04-2012,-,-,Java SE 7 Update 4[citation needed],No security updates; HotSpot VM 23; JDK Support for Mac OS X
+-,-,-,12-06-2012,-,-,Java SE 7 Update 5[citation needed],14 security fixes[117]
+-,-,-,14-08-2012,-,-,Java SE 7 Update 6[citation needed],"JavaFX and Java Access Bridge included in Java SE JDK and JRE installation, JavaFX support for touch-enabled monitors and touch pads, JavaFX support for Linux, JDK and JRE Support for Mac OS X, JDK for Linux on ARM[118]"
+-,-,-,30-08-2012,-,-,Java SE 7 Update 7[citation needed],4 security fixes[62]
+-,-,-,16-10-2012,-,-,Java SE 7 Update 9[citation needed],30 security vulnerabilities fixes[119]
+-,-,-,11-12-2012,-,-,Java SE 7 Update 10[citation needed],"New security features, such as the ability to disable any Java application from running in the browser and new dialogs to warn you when the JRE is insecure, and bug fixes"
+-,-,-,13-01-2013,-,-,Java SE 7 Update 11[citation needed],"Olson Data 2012i; bugfix for problems with registration of plugin on systems with Stand-alone version of JavaFX Installed, security fixes for CVE-2013-0422;[120] the default security level for Java applets and web start applications has been increased from ""Medium"" to ""High"""
+-,-,-,01-02-2013,-,-,Java SE 7 Update 13[121] [citation needed],50 security fixes
+-,-,-,19-02-2013,-,-,Java SE 7 Update 15[citation needed],5 security fixes
+-,-,-,04-03-2013,-,-,Java SE 7 Update 17[citation needed],2 security fixes
+-,-,-,16-04-2013,-,-,Java SE 7 Update 21[citation needed],"Multiple changes including 42 security fixes, a new Server JRE that does not include the plug-in, and the JDK for Linux on ARM"
+-,-,-,18-06-2013,-,-,Java SE 7 Update 25[citation needed],Multiple changes including 40 security fixes[65][122]
+-,-,-,10-09-2013,-,-,Java SE 7 Update 40[citation needed],"621 bug fixes,[123] New security features, hardfloat ARM, Java Mission Control 5.2 and Retina Display support[124]"
+-,-,-,15-10-2013,-,-,Java SE 7 Update 45[citation needed],51 security fixes;[66] protections against unauthorized redistribution of Java applications; restore security prompts; JAXP changes; TimeZone.setDefault change
+-,-,-,14-01-2014,-,-,Java SE 7 Update 51[citation needed],"36 security fixes; block JAVA applets without manifest (like Remote console – Java Applet – IBM IMM card, HP iLO card) even if warning dialog is with sentence ""will be blocked in next version"",[125][126] 17 bug fixes"
+-,-,-,15-04-2014,-,-,Java SE 7 Update 55[citation needed],"37 security fixes,[67] 19 bug fixes[127]"
+-,-,-,28-05-2014,-,-,Java SE 7 Update 60[citation needed],"Java Mission Control 5.3,[128] 130 bug fixes[129]"
+-,-,-,15-07-2014,-,-,Java SE 7 Update 65[citation needed],18 bug fixes[citation needed]
+-,-,-,04-08-2014,-,-,Java SE 7 Update 67[citation needed],1 bug fix
+-,-,-,14-10-2014,-,-,Java SE 7 Update 71[citation needed],16 bug fixes[citation needed]
+-,-,-,14-10-2014,-,-,Java SE 7 Update 72[citation needed],"Same release date with Update 71 as a corresponding Patch Set Update (PSU) for Java SE 7,[130] 36 bug fixes[citation needed]"
+-,-,-,20-01-2015,-,-,Java SE 7 Update 75[citation needed],"12 bug fixes,[citation needed] SSLv3 disabled by default"
+-,-,-,20-01-2015,-,-,Java SE 7 Update 76[citation needed],"Same release date with Update 75 as a corresponding Patch Set Update (PSU) for Java SE 7,[130] 97 bug fixes[citation needed]"
+-,-,-,14-04-2015,-,-,Java SE 7 Update 79[citation needed],"21 security fixes, 6 bug fixes,[citation needed]"
+-,-,-,14-04-2015,-,-,Java SE 7 Update 80[citation needed],"Last public release of Java 7; same release date with Update 79 as a corresponding Patch Set Update (PSU) for Java SE 7, 104 bug fixes[citation needed]"
+-,-,-,15-07-2015,-,-,Java SE 7 Update 85,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 25 security fixes[131]"
+-,-,-,20-10-2015,-,-,Java SE 7 Update 91,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 20 security fixes[132]"
+-,-,-,19-01-2016,-,-,Java SE 7 Update 95,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 8 security fixes[133]"
+-,-,-,05-02-2016,-,-,Java SE 7 Update 97,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 1 security fix[76]"
+-,-,-,23-03-2016,-,-,Java SE 7 Update 99,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 1 security fix[134]"
+-,-,-,18-04-2016,-,-,Java SE 7 Update 101,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 22 security fixes[135]"
+-,-,-,19-07-2016,-,-,Java SE 7 Update 111,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 36 security fixes[78]"
+-,-,-,18-10-2016,-,-,Java SE 7 Update 121,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 32 security fixes[79]"
+-,-,-,17-01-2017,-,-,Java SE 7 Update 131,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 34 security fixes[80]"
+-,-,-,18-04-2017,-,-,Java SE 7 Update 141,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 8 security fixes[136]"
+-,-,-,18-07-2017,-,-,Java SE 7 Update 151,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 4 security fixes[82]"
+-,-,-,20-10-2017,-,-,Java SE 7 Update 161,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 4 security fixes[83]"
+-,-,-,16-01-2018,-,-,Java SE 7 Update 171,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 51 security fixes[84]"
+-,-,-,17-04-2018,-,-,Java SE 7 Update 181,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 12 security fixes[85]"
+-,-,-,17-07-2018,-,-,Java SE 7 Update 191,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 9 security fixes[86]"
+-,-,-,18-10-2018,-,-,Java SE 7 Update 201,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 13 security fixes[87]"
+-,-,-,15-01-2019,-,-,Java SE 7 Update 211,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 5 security fixes[137]"
+-,-,-,16-04-2019,-,-,Java SE 7 Update 221,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 5 security fixes[138]"
+-,-,-,16-07-2019,-,-,Java SE 7 Update 231,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 6 security fixes[139]"
+-,-,-,15-10-2019,-,-,Java SE 7 Update 241,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 15 security fixes[140]"
+-,-,-,14-01-2020,-,-,Java SE 7 Update 251,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 12 security fixes[141]"
+-,-,-,14-04-2020,-,-,Java SE 7 Update 261,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 15 security fixes[142]"
+-,-,-,14-07-2020,-,-,Java SE 7 Update 271,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 11 security fixes[143]"
+-,-,-,20-10-2020,-,-,Java SE 7 Update 281,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 8 security fixes[144]"
+-,-,-,19-01-2021,-,-,Java SE 7 Update 291,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 1 security fixes[145]"
+-,-,-,12-04-2021,-,-,Java SE 7 Update 301,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 11 security fixes[146]"
+-,-,-,20-07-2021,-,-,Java SE 7 Update 311,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 24 bug fixes[147]"
+-,-,-,19-10-2021,-,-,Java SE 7 Update 321,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 16 bug fixes[148]"
+-,-,-,18-01-2022,-,-,Java SE 7 Update 331,"Not available publicly, only available through the Java SE Support program and in Solaris 10's Recommended Patchset Cluster; 18 bug fixes[149]"
+-,-,-,18-03-2014,-,-,Java SE 8,Initial release
+-,-,-,15-04-2014,-,-,Java SE 8 Update 5[166],"Using ""*"" in Caller-Allowable-Codebase attribute; 11 bug fixes"
+-,-,-,15-07-2014,-,-,Java SE 8 Update 11[167],"Java Dependency Analysis Tool (jdeps); Java Control Panel option to disable sponsors; JAR file attribute – Entry-Point; JAXP processing limit property – maxElementDepth; 18 security bug fixes,[168] 15 bug fixes"
+-,-,-,19-08-2014,-,-,Java SE 8 Update 20[169],"669 bug fixes,[170] JMC 5.4, String deduplication (disabled by default)"
+-,-,-,14-10-2014,-,-,Java SE 8 Update 25[171],10 bug fixes
+-,-,-,19-01-2015,-,-,Java SE 8 Update 31[172],26 bug fixes; SSLv3 (disabled by default)
+-,-,-,03-03-2015,-,-,Java SE 8 Update 40[173],"645 bug fixes,[174] Added the notion of ""memory pressure"" to help indicate how much of system's memory is still available (low pressure = high memory, high pressure = low memory)"
+-,-,-,14-04-2015,-,-,Java SE 8 Update 45[175],13 bug fixes
+-,-,-,14-07-2015,-,-,Java SE 8 Update 51[176],"Added support for native sandbox on Windows platforms (disabled by default); also, 25 security fixes, 14 bug fixes"
+-,-,-,18-08-2015,-,-,Java SE 8 Update 60[177],480 bug fixes[178]
+-,-,-,20-10-2015,-,-,Java SE 8 Update 65[179],"25 security fixes, 3 bug fixes"
+-,-,-,16-11-2015,-,-,Java SE 8 Update 66[180],15 bug fixes
+-,-,-,19-01-2016,-,-,Java SE 8 Update 71[181],"8 security fixes, 5 bug fixes[182]"
+-,-,-,19-01-2016,-,-,Java SE 8 Update 72[183],"8 security fixes, 5 bug fixes, several enhancements"
+-,-,-,03-02-2016,-,-,Java SE 8 Update 73[184],1 security fix
+-,-,-,03-02-2016,-,-,Java SE 8 Update 74[185],1 security fix
+-,-,-,23-03-2016,-,-,Java SE 8 Update 77[186],1 security fix
+-,-,-,19-04-2016,-,-,Java SE 8 Update 91[187],"9 security fixes, 4 bug fixes and enhancements"
+-,-,-,19-04-2016,-,-,Java SE 8 Update 92[188],"Security and bug fixes from 8u91, plus 76 additional bug fixes; the ExitOnOutOfMemoryError and CrashOnOutOfMemoryError flags have been introduced"
+-,-,-,19-07-2016,-,-,Java SE 8 Update 101[189],"Security and bug fixes from 8u92, plus 9 additional bug fixes"
+-,-,-,19-07-2016,-,-,Java SE 8 Update 102[190],"Security and bug fixes from 8u101, plus 118 additional bug fixes"
+-,-,-,18-10-2016,-,-,Java SE 8 Update 111[191],7 Security fixes and 9 bug fixes
+-,-,-,18-10-2016,-,-,Java SE 8 Update 112[192],Additional features and 139 bug fixes over 8u111
+-,-,-,17-01-2017,-,-,Java SE 8 Update 121[193],"3 additional features, 5 changes, and 11 bug fixes over 8u112."
+-,-,-,18-04-2017,-,-,Java SE 8 Update 131[194],4 changes and 42 bug fixes (2 notable).
+-,-,-,18-07-2017,-,-,Java SE 8 Update 141[195],"Additional feature, 3 changes and 12 bug fixes."
+-,-,-,26-07-2017,-,-,Java SE 8 Update 144[196],32 Security fixes and bug fixes from 8u141.
+-,-,-,17-10-2017,-,-,Java SE 8 Update 151[197],"22 Security fixes, 2 notes, 1 certificate revocation, 1 new feature, 6 changes and 24 bug fixes from 8u144."
+-,-,-,17-10-2017,-,-,Java SE 8 Update 152[198],"Security fixes, 1 new feature, 1 change and 238 bug fixes from 8u151 (1 notable)."
+-,-,-,16-01-2018,-,-,Java SE 8 Update 161[199],"21 Security fixes, 3 new features, 9 changes and 1 bug fix from 8u152."
+-,-,-,16-01-2018,-,-,Java SE 8 Update 162[200],"Security fixes, 63 bug fixes."
+-,-,-,17-04-2018,-,-,Java SE 8 Update 171[201],"Security fixes, bug fixes."
+-,-,-,17-04-2018,-,-,Java SE 8 Update 172[202],"Security fixes, bug fixes."
+-,-,-,17-07-2018,-,-,Java SE 8 Update 181[203],"Security fixes, bug fixes."
+-,-,-,16-10-2018,-,-,Java SE 8 Update 191[204],"New features, changes, bug fixes, security fixes."
+-,-,-,16-10-2018,-,-,Java SE 8 Update 192[205],"New features, changes, bug fixes."
+-,-,-,15-01-2019,-,-,Java SE 8 Update 201[206],"New features, changes, bug fixes."
+-,-,-,15-01-2019,-,-,Java SE 8 Update 202[207],"New features, changes, bug fixes."
+-,-,-,16-04-2019,-,-,Java SE 8 Update 211[208],"New features, changes, bug fixes. License Update."
+-,-,-,16-04-2019,-,-,Java SE 8 Update 212[209],"New features (e.g. 5 currency symbols, including for Bitcoin and ""New Japanese Era Name Reiwa""[209]), changes, bug fixes. License Update."
+-,-,-,16-07-2019,-,-,Java SE 8 Update 221[210],"New features, changes, bug fixes."
+-,-,-,15-10-2019,-,-,Java SE 8 Update 231[211],"New features, changes, bug fixes and 18 security fixes."
+-,-,-,14-01-2020,-,-,Java SE 8 Update 241[212],"New features, changes, bug fixes."
+-,-,-,14-04-2020,-,-,Java SE 8 Update 251[213],"New features, changes, bug fixes. The last version that was shown to be working on Windows XP unofficially."
+-,-,-,14-07-2020,-,-,Java SE 8 Update 261[214],"New features, changes, 133 bug fixes.[215]"
+-,-,-,20-10-2020,-,-,Java SE 8 Update 271[216],"New features, changes, 65 bug fixes.[217]"
+-,-,-,19-01-2021,-,-,Java SE 8 Update 281[218],"New features, changes, 33 bug fixes.[219]"
+-,-,-,20-04-2021,-,-,Java SE 8 Update 291[220],"New features, changes, 28 bug fixes.[221]"
+-,-,-,20-07-2021,-,-,Java SE 8 Update 301[222],"New features, changes, 90 bug fixes.[223]"
+-,-,-,19-10-2021,-,-,Java SE 8 Update 311[224],"New features, changes, 52 bug fixes.[225]"
+-,-,-,18-01-2022,-,-,Java SE 8 Update 321[226],"New features, changes, 62 bug fixes.[227]"
+-,-,-,19-04-2022,-,-,Java SE 8 Update 331[228],"New features, changes, 37 bug fixes.[229]"
+-,-,-,02-05-2022,-,-,Java SE 8 Update 333[230],Patch w/1 change and 2 bug fixes.[231]
+-,-,-,19-07-2022,-,-,Java SE 8 Update 341[232],"New features, changes, 42 bug fixes.[233]"
+-,-,-,18-10-2022,-,-,Java SE 8 Update 351[234],"New features, changes, 95 bug fixes.[235]"
+-,-,-,17-01-2023,-,-,Java SE 8 Update 361[236],"New features, changes, bug fixes."
+-,-,-,18-04-2023,-,-,Java SE 8 Update 371[237],-
+-,-,-,18-07-2023,-,-,Java SE 8 Update 381[238],Security Patches
+-,-,-,17-10-2023,-,-,Java SE 8 Update 391[239],-
+-,-,-,16-01-2024,-,-,Java SE 8 Update 401[240],-
+-,-,-,16-04-2024,-,-,Java SE 8 Update 411[241],"Update time zone data to IANA TZ Data 2024a, new features, changes, updates to third-party libraries, 37 bug fixes.[241]"
+-,-,-,16-07-2024,-,-,Java SE 8 Update 421[242],-
+-,-,-,15-10-2024,-,-,Java SE 8 Update 431[243],-
+-,-,-,21-01-2025,-,-,Java SE 8 Update 441[244],-
+-,-,-,21-09-2017,-,-,Java SE 9[260],Initial release
+-,-,-,17-10-2017,-,-,Java SE 9.0.1[261],"New features
+Add Additional IDL Stub Type Checks to org.omg.CORBA.ORB::string_to_object Method (other-libs/corba)
+Known issues
+
+TLS does not work by default on OpenJDK 9 (security-libs/java.security)
+Changes
+
+Remove revoked Swisscom root certificate ""swisscomrootevca2"" (security-libs/java.security)
+Refactor existing providers to refer to the same constants for default values for key length (security-libs/java.security)
+Collections use serialization filter to limit array sizes (security-libs/java.security)
+Add warnings to keytool when using JKS and JCEKS (security-libs/java.security)
+Other notes
+
+Default timeouts have changed for FTP URL handler (core-libs/java.net)
+Bug fixes
+
+12 bug fixes[262]"
+-,-,-,16-01-2018,-,-,Java SE 9.0.4[263],"New features
+Open source the root certificates in Oracle's Java SE Root CA program (security-libs/javax.net.ssl)
+Added TLS session hash and extended master secret extension support (security-libs/javax.net.ssl)
+Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for TLS (security-libs/javax.net.ssl)
+Add additional IDL stub type checks to org.omg.CORBA.ORBstring_to_object method (other-libs/corba)
+Changes
+
+RSA public key validation (security-libs/javax.crypto)
+Provider default key size is updated (security-libs/javax.crypto)
+Stricter key generation (security-libs/javax.crypto)
+Disable exportable cipher suites (security-libs/javax.net.ssl)
+JMX Connections need deserialization filters (core-svc/javax.management)
+JDK Transform, Validation and XPath use the system-default parser  (xml/jaxp)
+Bug fixes
+
+JNLP files won't launch from IE11 on Windows 10 Creators Update (deploy/webstart)
+11 bug fixes[264]"
+-,-,-,20-03-2018,-,-,Java SE 10[266],Initial release
+-,-,-,17-04-2018,-,-,Java SE 10.0.1[267],"New features
+Enhanced KeyStore Mechanisms (security-libs/javax.crypto)
+Changes
+
+XML Signatures Signed with EC Keys Less Than 224 Bits Disabled (security-libs/javax.xml.crypto)
+3DES Cipher Suites Disabled (security-libs/javax.net.ssl)
+Other notes
+
+CipherOutputStream Usage (security-libs/javax.crypto)
+Bug fixes
+
+5 bug fixes[268]"
+-,-,-,17-07-2018,-,-,Java SE 10.0.2[269],"Changes
+filterArguments runs multiple filters in the wrong order (core-libs/java.lang.invoke)
+Improve LDAP support (core-libs/javax.naming)
+Better stack walking (core-libs/java.io:serialization)
+Bug fixes
+
+JVM Crash during G1 GC (hotspot/gc)
+7 bug fixes[270]"
+-,-,-,25-09-2018,-,-,Java SE 11[273],Initial release
+-,-,-,16-10-2018,-,-,Java SE 11.0.1[274],"Changes
+Added Additional TeliaSonera Root Certificate (security-libs/java.security)
+Improve LDAP support (core-libs/javax.naming)
+Changed Central File System Location for usagetracker.properties File (core-svc)
+Problem looking up Client Certificates in keystore (security-libs/javax.net.ssl)
+Disabled All DES TLS Cipher Suites (security-libs/javax.net.ssl)
+Improved Cipher Inputs (security-libs/javax.crypto)
+Bug fixes
+
+LDAPS Communication Failure (core-libs/javax.naming)
+Better HTTP Redirection Support (core-libs/java.net)
+5 bug fixes[275]"
+-,-,-,15-01-2019,-,-,Java SE 11.0.2[276],"Known issues
+GTK+ 3.20 and Later Unsupported by Swing (client-libs)
+Changes
+
+TLS anon and NULL Cipher Suites are Disabled (security-libs/javax.net.ssl)
+Linux Native Code Checks (hotspot/runtime)
+Enable Java Access Bridge Check Box Option in Control Panel Is Not Available with JDK 11 Installer (security-libs/javax.net.ssl)
+Bug fixes
+
+59 bug fixes[277]"
+-,-,-,16-04-2019,-,-,Java SE 11.0.3[278],"New features
+Square Character Support for Japanese New Era (core-libs/java.util:i18n)
+Known issues
+
+Java Access Bridge Installation Workaround (install)
+Changes
+
+Added GlobalSign R6 Root Certificate (security-libs/java.security)
+Distrust TLS Server Certificates Anchored by Symantec Root CAs (security-libs/javax.net.ssl)
+New Japanese Era Name Reiwa (core-libs/java.time)
+Support New Japanese Era in java.time.chrono.JapaneseEra (core-libs/java.time)
+Bug fixes
+
+17 bug fixes[279]"
+-,-,-,16-07-2019,-,-,Java SE 11.0.4[280],"New features
+HotSpot Windows OS Detection Correctly Identifies Windows Server 2019 (hotspot/runtime)
+Removed features and options
+
+Removal of Two DocuSign Root CA Certificates (security-libs/java.security)
+Removal of Two Comodo Root CA Certificates (security-libs/java.security)
+Removal of T-Systems Deutsche Telekom Root CA 2 Certificate (security-libs/java.security)
+Removal of GTE CyberTrust Global Root (security-libs/java.security)
+Other notes
+
+com.sun.org.apache.xml.internal.security.ignoreLineBreaks System Property (security-libs/javax.xml.crypto)
+System Property to Switch Between Implementations of ECC (security-libs/javax.crypto)
+Bug fixes
+
+42 bug fixes[281]"
+-,-,-,15-10-2019,-,-,Java SE 11.0.5[282],"New features
+New Java Flight Recorder (JFR) Security Events (security-libs/java.security)
+Other notes
+
+Using the JDK or JRE on macOS Catalina (10.15) (docs)
+Remove Obsolete NIST EC Curves from the Default TLS Algorithms (security-libs/javax.net.ssl)
+Use SunJCE Mac in SecretKeyFactory PBKDF2 Implementation (security-libs/javax.crypto)
+Java Access Bridge Installation Workaround (install)
+Updated XML Signature Implementation to Apache Santuario 2.1.3 (security-libs/javax.xml.crypto)
+System Property jdk.security.useLegacyECC is Turned Off by Default (security-libs/javax.crypto)
+Changed Properties.loadFromXML to Comply with Specification (core-libs/java.util)
+Runtime.exec and ProcessBuilder Argument Restrictions (core-libs/java.lang)
+Windows 2019 Core Server Is Not Supported (client-libs/2d)
+Bug fixes
+
+83 bug fixes[283]"
+-,-,-,14-01-2020,-,-,Java SE 11.0.6[284],"New features
+Allow SASL Mechanisms to Be Restricted (security-libs/javax.security)
+SunPKCS11 Provider Upgraded with Support for PKCS#11 v2.40 (security-libs/javax.crypto:pkcs11)
+Other notes
+
+Improve Registry Support (core-libs/java.rmi)
+New Checks on Trust Anchor Certificates (security-libs/java.security)
+Exact Match Required for Trusted TLS Server Certificate (security-libs/java.security)
+Added LuxTrust Global Root 2 Certificate (install/security-libs/java.security)
+Added 4 Amazon Root CA Certificates (security-libs/java.security)
+Turn off AOT by Default and Change Related Flags to Experimental (hotspot/compiler)
+Epsilon GC handled checked array stores incorrectly (hotspot/gc)
+Bug fixes
+
+Memory Growth Issue in SunPKCS11 Fixed (security-libs/javax.crypto:pkcs11)
+Better Serial Filter Handling (core-libs/java.io:serialization)
+123 bug fixes[285]"
+-,-,-,14-04-2020,-,-,Java SE 11.0.7[286],"New features
+Support for MS Cryptography Next Generation (CNG) (security-libs/javax.crypto)
+Bug fixes
+
+140 bug fixes[287]"
+-,-,-,14-07-2020,-,-,Java SE 11.0.8[288],"New features
+New System Properties to Configure the TLS Signature Schemes (security-libs/javax.net.ssl)
+Apache Santuario Library Updated to Version 2.1.4 (security-libs/javax.xml.crypto)
+Toolchain Upgrade to Xcode 10.1 (infrastructure)
+Oracle JDK Installer for Windows Provides Executables (javac, etc) in a Path Reachable From Any Command Prompt (install/install)
+Removed features and options
+
+Removal of Comodo Root CA Certificate (security-libs/java.security)
+Removal of DocuSign Root CA Certificate (security-libs/java.security)
+Other notes
+
+Improved Serialization Handling (security-libs/javax.net.ssl)
+Better Listing of Arrays (security-libs/javax.net.ssl)
+Default SSLEngine Should Create in Server Role (security-libs/javax.net.sslc)
+OperatingSystemMXBean Methods Inside a Container Return Container Specific Data (core-svc/java.lang.management)
+Default SSL Session Cache Size Updated to 20480 (security-libs)
+Deprecated NSWindowStyleMaskTexturedBackground (client-libs/javax.swing)
+Bug fixes
+
+167 bug fixes[289]"
+-,-,-,20-10-2020,-,-,Java SE 11.0.9[290],"New features
+Weak Named Curves in TLS, CertPath, and Signed JAR Disabled by Default (security-libs/java.security)
+Support for Kerberos Cross-Realm Referrals (RFC 6806) (security-libs/org.ietf.jgss:krb5)
+Improve Certificate Chain Handling (security-libs/javax.net.ssl)
+Tools Warn If Weak Algorithms Are Used (security-libs/java.security)
+Support for canonicalize in krb5.conf (security-libs/org.ietf.jgss:krb5)
+Other notes
+
+Added Property to Control LDAP Authentication Mechanisms Allowed to Authenticate Over Clear Connections (core-libs/javax.naming)
+Added 3 SSL Corporation Root CA Certificates (security-libs/java.security)
+Added Entrust Root Certification Authority – G4 certificate (security-libs/java.security)
+Localized Time Zone Name Inconsistency Between English and Other Locales (core-libs/java.util:i18n)
+Enhanced Support of Proxy Class (core-libs/java.io:serialization)
+Bug fixes
+
+118 bug fixes[291]"
+-,-,-,19-01-2021,-,-,Java SE 11.0.10[292],"New features
+-groupname Option Added to keytool Key Pair Generation (security-libs/java.security)
+Support for certificate_authorities Extension (security-libs/javax.net.ssl)
+POSIX_SPAWN Option on Linux (core-libs/java.lang)
+Support for X25519 and X448 in TLS (security-libs/javax.net.ssl)
+jarsigner Preserves POSIX File Permission and symlink Attributes (security-libs/java.security)
+Other notes
+
+Oracle JDK11u for Solaris Now Requires harfbuzz to be Installed (client-libs/2d)
+JDK time-zone data upgraded to tzdata2020d (core-libs/java.time)
+JDK time-zone data upgraded to tzdata2020c (core-libs/java.time)
+US/Pacific-New Zone Name Removed as Part of tzdata2020b (core-libs/java.time)
+Bug fixes
+
+118 bug fixes[293]"
+-,-,-,20-04-2021,-,-,Java SE 11.0.11[294],"New features
+jdeps --print-module-deps Reports Transitive Dependences (tools)
+Other notes
+
+New System and Security Properties to Control Reconstruction of Remote Objects by JDK's Built-in JNDI RMI and LDAP Implementations (core-libs/javax.naming)
+Added 2 HARICA Root CA Certificates (security-libs/java.security)
+Disable TLS 1.0 and 1.1 (security-libs/javax.net.ssl)
+Modified the MS950 charset Encoder's Conversion Table (core-libs/java.nio.charsets)
+Less Ambiguous Processing of ProcessBuilder Quotes on Windows > (core-libs/java.lang)
+Bug fixes
+
+88 bug fixes[295]"
+-,-,-,20-07-2021,-,-,Java SE 11.0.12[296],"New features
+Support cross-realm MSSFU (security-libs/org.ietf.jgss:krb5)
+Customizing PKCS12 keystore Generation (security-libs/java.security)
+Removed features and options
+
+Removed Root Certificates with 1024-bit Keys (security-libs/java.security)
+Removed Telia Company's Sonera Class2 CA Certificate (security-libs/java.security)
+Other notes
+
+Updated List of Capabilities Provided by JDK RPMs (install/install)
+ADDLOCAL=ToolsFeature,SourceFeature Argument No Longer Needed For Windows JDK Installer (install/install)
+Upgraded the Default PKCS12 Encryption and MAC Algorithms (security-libs/java.security)
+Disable SHA-1 JARs (security-libs/java.security)
+Improve Encoding of TLS Application-Layer Protocol Negotiation (ALPN) Values (security-libs/javax.net.ssl)
+URL FTP Protocol Handler: IPv4 Address Validation in Passive Mode (core-libs/java.net)
+Bug fixes
+
+106 bug fixes[297]"
+-,-,-,19-10-2021,-,-,Java SE 11.0.13[298],"New features
+Context-specific Deserialization Filters (core-libs/java.io:serialization)
+Removed features and options
+
+Removed IdenTrust Root Certificate (security-libs/java.security)
+Remove the Experimental AOT and JIT Compiler in OracleJDK 11u (hotspot/compiler)
+Other notes
+
+Release Doesn't Correctly Recognize Windows 11 (core-libs/java.lang)
+Change to Package Names in Linux RPM/DEB Installers (install)
+Updated the Default Enabled Cipher Suites Preference (security-libs/javax.net.ssl)
+System Property to Control Reconstruction of Reference Address Objects by JDK's Built-in JNDI LDAP Implementation (core-libs/javax.naming)
+Release Doesn't Correctly Recognize Windows Server 2022 (hotspot/runtime)
+Updated keytool to Create AKID From SKID of Issuing Certificate as Specified by RFC 5280 (security-libs/java.security)
+SunPKCS11 Initialization With NSS When External FIPS Modules Are in Security Modules Database (security-libs/javax.crypto:pkcs11)
+Bug fixes
+
+93 bug fixes[299]"
+-,-,-,18-01-2022,-,-,Java SE 11.0.14[300],"New features
+New SunPKCS11 Configuration Properties (security-libs/javax.crypto:pkcs11)
+Configurable Extensions With System Properties (security-libs/javax.net.ssl)
+Removed features and options
+
+Removed Google's GlobalSign Root Certificate (security-libs/java.security)
+Other notes
+
+Zip File System Provider Throws ZipException When Entry Name Element Contains ""."" or "".."" (core-libs/java.nio)
+Update Timezone Data to 2021c (core-libs/java.time)
+LDAP Channel Binding Support for Java GSS/Kerberos (core-libs/javax.naming)
+SocketExceptions Are Not Wrapped Into SSLExceptions in SSLSocketImpl (security-libs/javax.net.ssl)
+OperatingSystemMXBean.getProcessCpuLoad Is Now Container Aware (hotspot/runtime)
+Bug fixes
+
+71 bug fixes[301]"
+-,-,-,19-04-2022,-,-,Java SE 11.0.15[302],"New features
+SunPKCS11 Provider Supports ChaCha20-Poly1305 Cipher and ChaCha20 KeyGenerator if Supported by PKCS11 Library (security-libs/javax.crypto:pkcs11)
+ChaCha20 and Poly1305 TLS Cipher Suites (security-libs/javax.net.ssl)
+New XML Processing Limits (xml/jaxp)
+Other notes
+
+Only Expose Certificates With Proper Trust Settings as Trusted Certificate Entries in macOS KeychainStore (security-libs/java.security)
+Parsing of URL Strings in Built-in JNDI Providers Is More Strict (core-libs/javax.naming)
+Bug fixes
+
+81 bug fixes[303]"
+-,-,-,19-07-2022,-,-,Java SE 11.0.16[304],"New features
+HTTPS Channel Binding Support for Java GSS/Kerberos (core-libs/java.net)
+Other notes
+
+Update java.net.InetAddress to Detect Ambiguous IPv4 Address Literals (core-libs/java.net)
+JDK Bundle Extensions Truncated When Downloading Using Firefox 102 (core-libs/java.io:serialization)
+Vector Should Throw ClassNotFoundException for a Missing Class of an Element (core-libs/java.io:serialization)
+Default JDK Compressor Will Be Closed when IOException Is Encountered (core-libs/java.util.jar)
+Bug fixes
+
+74 bug fixes[305]"
+-,-,-,18-08-2022,-,-,Java SE 11.0.16.1[306],"Changes
+C2 Compilation Errors Unpredictably Crashes JVM (hotspot/compiler)"
+-,-,-,18-10-2022,-,-,Java SE 11.0.17[307],"New features
+Upgrade the Default PKCS12 MAC Algorithm (security-libs/java.security)
+JDK Flight Recorder Event for Deserialization (core-libs/java.io:serialization)
+Other notes
+
+Disabled SHA-1 Signed JARs (security-libs/java.security)
+Deprecate 3DES and RC4 in Kerberos (security-libs/org.ietf.jgss:krb5)
+Make HttpURLConnection Default Keep Alive Timeout Configurable (core-libs/java.net)
+CPU Shares Ignored When Computing Active Processor Count (hotspot/runtime)
+Update Timezone Data to 2022c (core-libs/java.time)
+New System Property to Limit the Number of Open Connections to com.sun.net.httpserver.HttpServer (core-libs/java.net)
+Bug fixes
+
+118 bug fixes[308]"
+-,-,-,17-01-2023,-,-,Java SE 11.0.18[309],"New features
+DTLS Resumption Uses HelloVerifyRequest Messages (security-libs/javax.net.ssl)
+Support for RSASSA-PSS in OCSP Response (security-libs/java.security)
+Known issues
+
+Installation of Oracle Linux Specific x64 JDK RPMs Pulls in i686 Dependencies (install/install)
+Other notes
+
+FXML JavaScript Engine Disabled by Default (javafx/fxml)
+Translated resource bundles for German (globalization)
+RPM JDK Installer Changes (install/install)
+Disable Side-by-Side Installations of Multiple JDK Updates in Windows JDK Installers (install/install)
+All JDK Update Releases Are Installed Into the Same Directory on macOS (install/install)
+Incorrect Handling of Quoted Arguments in ProcessBuilder (core-libs/java.lang)
+New Implementation Note for LoginModule on Removing Null from a Principals or Credentials set (security-libs/javax.security)
+Toolchain Upgrade to Visual Studio 2022 (infrastructure)
+Change in SSLEngine.closeInbound() Behavior (security-libs/javax.net.ssl)
+Bug fixes
+
+58 bug fixes[310]"
+-,-,-,18-04-2023,-,-,Java SE 11.0.19[311],"New features
+Added a Default Native GSS-API Library on Windows (security-libs/org.ietf.jgss)
+Other notes
+
+System Property to Handle HTML ObjectView Creation (client-libs/javax.swing)
+Added Certigna(Dhimyotis) Root CA Certificate (security-libs/java.security)
+Removed SSLv2Hello and SSLv3 From Default Enabled TLS Protocols (security-libs/javax.net.ssl)
+File::listRoots Changed to Return All Available Drives on Windows (core-libs/java.io)
+Crypto-J Exception for Diffie-Hellman and DSA AlgorithmParameters Requests (security-libs/java.security)
+Bug fixes
+
+55 bug fixes[312]"
+-,-,-,18-07-2023,-,-,Java SE 11.0.20[313],"New features
+Allow Additional Characters for GB18030-2022 Support (core-libs/java.lang)
+Support for GB18030-2022 (core-libs/java.nio.charsets)
+Update the Javadoc in the Character Class to State Support for GB 18030-2022 Implementation Level 2 (core-libs/java.lang)
+Windows KeyStore Updated to Include Access to the Local Machine Location (security-libs/java.security)
+New JFR Event: jdk.InitialSecurityProperty (security-libs/java.security)
+New JFR Event: jdk.SecurityProviderService (security-libs/java.security)
+JDK Now Accepts RSA Keys in PKCS#1 Format (security-libs/javax.crypto)
+Known issues
+
+Problem Upgrading JDK on Windows if System User Is Using Shared Files (install)
+Other notes
+
+System Property to Turn off JDK-8251329 Restrictions (core-libs/java.nio)
+Missing /usr/java/default Symlink on Linux Restored (install/install)
+Installation of JDK RPM Corrupts Alternatives (install/install)
+Added TWCA Root CA Certificate (security-libs/java.security)
+Added 4 GTS Root CA Certificates (security-libs/java.security)
+Added Microsoft Corporation's 2 TLS Root CA Certificates (security-libs/java.security)
+System Property for Java SE Specification Maintenance Version (core-libs/java.lang)
+GregorianCalender.computeTime() JVM Crash (hotspot/compiler)
+ASLR Support for CDS Archive (hotspot/runtime)
+Throw Error If Default java.security File Fails to Load (security-libs/java.security)
+New System Property to Control the Maximum Size of Signature Files (security-libs/java.security)
+Improved ZIP64 Extra Field Validation (core-libs/java.util.jar)
+Bug fixes
+
+43 bug fixes[314]"
+-,-,-,17-10-2023,-,-,Java SE 11.0.21[315],"New features
+-XshowSettings:locale Output Now Includes Tzdata Version (tools/launcher)
+Removed features and options
+
+Removed SECOM Trust System's RootCA1 Root Certificate (security-libs/java.security)
+Other notes
+
+Added Certigna Root CA Certificate (security-libs/java.security)
+Debian JDK Installer Changes (install/install)
+Ignore Allow and Disallow Options for java.security.manager System Property (security-libs/java.security)
+The Default TLS Diffie-Hellman Group Size Has Been Increased from 1024-bit to 2048-bit (security-libs/javax.net.ssl)
+Use Server Cipher Suites Preference by Default (security-libs/javax.net.ssl)
+Bug fixes
+
+29 bug fixes[316]"
+-,-,-,16-01-2024,-,-,Java SE 11.0.22[317],"New features
+New System Property to Toggle XML Signature Secure Validation Mode (security-libs/javax.xml.crypto)
+Known issues
+
+Potential Performance Regression Due to Limited Range Check Elimination (hotspot/compiler)
+Other notes
+
+Add Process-Memory Information to hs-err and VM.info (hotspot/runtime)
+Increase Default Value of the System Property jdk.jar.maxSignatureFileSize (security-libs/java.security)
+Added Four Root Certificates from DigiCert, Inc. (security-libs/java.security)
+Added Three Root Certificates from eMudhra Technologies Limited (security-libs/java.security)
+Added Telia Root CA v2 Certificate (security-libs/java.security)
+Added ISRG Root X2 CA Certificate from Let's Encrypt (security-libs/java.security)
+Call X509KeyManager.chooseClientAlias Once for All Key Types (security-libs/javax.net.ssl)
+Add Process-Memory Information to hs-err and VM.info (hotspot/runtime)
+Bug fixes
+
+29 bug fixes[318]"
+-,-,-,19-03-2019,-,-,Java SE 12[320],Initial release
+-,-,-,16-04-2019,-,-,Java SE 12.0.1[321],"Known issues
+Java Access Bridge Installation Workaround (install)
+Changes
+
+Added GlobalSign R6 Root Certificate (security-libs/java.security)
+New Japanese Era Name Reiwa (core-libs/java.time)
+Bug fixes
+
+3 bug fixes[322]"
+-,-,-,16-07-2019,-,-,Java SE 12.0.2[323],"Removed features and options
+Removal of Two DocuSign Root CA Certificates (security-libs/java.security)
+Removal of Two Comodo Root CA Certificates (security-libs/java.security)
+Removal of T-Systems Deutsche Telekom Root CA 2 Certificate (security-libs/java.security)
+Other notes
+
+Java Access Bridge Installation Workaround (install)"
+-,-,-,17-09-2019,-,-,Java SE 13[326],Initial release
+-,-,-,15-10-2019,-,-,Java SE 13.0.1[327],"Other notes
+Using the JDK or JRE on macOS Catalina (10.15) (docs)
+Remove Obsolete NIST EC Curves from the Default TLS Algorithms (security-libs/javax.net.ssl)
+Text Visibility Issues in macOS Dark Mode (client-libs)
+Runtime.exec and ProcessBuilder Argument Restrictions (core-libs/java.lang)"
+-,-,-,14-01-2020,-,-,Java SE 13.0.2[328],"Other notes
+New Checks on Trust Anchor Certificates (security-libs/java.security)
+Exact Match Required for Trusted TLS Server Certificate (security-libs/java.security)
+Added LuxTrust Global Root 2 Certificate (security-libs/java.security)
+Added 4 Amazon Root CA Certificates (security-libs/java.security)
+Improve Registry Support (core-libs/java.rmi)
+Bug fixes
+
+Better Serial Filter Handling (core-libs/java.io:serialization)
+29 bug fixes[329]"
+-,-,-,17-03-2020,-,-,Java SE 14[332],Initial release
+-,-,-,14-04-2020,-,-,Java SE 14.0.1[333],"Bug fixes
+2 bug fixes[334]"
+-,-,-,14-07-2020,-,-,Java SE 14.0.2[335],"Removed features and options
+Removal of Comodo Root CA Certificate (security-libs/java.security)
+Removal of DocuSign Root CA Certificate (security-libs/java.security)
+Other notes
+
+Better Listing of Arrays (core-libs/java.util:collections)
+Default SSLEngine Should Create in Server Role (security-libs/javax.net.ssl)
+Improved Serialization Handling (core-libs/java.io:serialization)
+Bug fixes
+
+8 bug fixes[336]"
+-,-,-,15-09-2020,-,-,Java SE 15[338],Initial release
+-,-,-,20-10-2020,-,-,Java SE 15.0.1[339],"New features
+Improve Certificate Chain Handling (security-libs/javax.net.ssl)
+Other notes
+
+Added Property to Control LDAP Authentication Mechanisms Allowed to Authenticate Over Clear Connections (core-libs/javax.naming)
+Added 3 SSL Corporation Root CA Certificates (security-libs/java.security)
+Added Entrust Root Certification Authority – G4 certificate (security-libs/java.security)
+Enhanced Support of Proxy Class (core-libs/java.io:serialization)
+Bug fixes
+
+8 bug fixes[340]"
+-,-,-,19-01-2021,-,-,Java SE 15.0.2[341],"Other notes
+JDK time-zone data upgraded to tzdata2020d (core-libs/java.time)
+JDK time-zone data upgraded to tzdata2020c (core-libs/java.time)
+US/Pacific-New Zone Name Removed as Part of tzdata2020b (core-libs/java.time)
+Bug fixes
+
+24 bug fixes[342]"
+-,-,-,16-03-2021,-,-,Java SE 16[344],Initial release
+-,-,-,20-04-2021,-,-,Java SE 16.0.1[345],"Other notes
+New System and Security Properties to Control Reconstruction of Remote Objects by JDK's Built-in JNDI RMI and LDAP Implementations (core-libs/javax.naming)
+Added 2 HARICA Root CA Certificates (security-libs/java.security)
+Less Ambiguous Processing of ProcessBuilder Quotes on Windows (core-libs/java.lang)
+Bug fixes
+
+30 bug fixes[346]"
+-,-,-,20-07-2021,-,-,Java SE 16.0.2[347],"Removed features and options
+Removed Telia Company's Sonera Class2 CA certificate (security-libs/java.security)
+Other notes
+
+Updated List of Capabilities Provided by JDK RPMs (install/install)
+Change to Package Names in Linux RPM/DEB Installers (install/install)
+URL FTP Protocol Handler: IPv4 Address Validation in Passive Mode (core-libs/java.net)
+SocketExceptions Are Not Wrapped Into SSLExceptions in SSLSocketImpl (security-libs/javax.net.ssl)
+Disable SHA-1 JARs (security-libs/java.security)
+Bug fixes
+
+25 bug fixes[348]"
+-,-,-,14-09-2021,-,-,Java SE 17[350],Initial release
+-,-,-,19-10-2021,-,-,Java SE 17.0.1[351],"Removed features and options
+Removed IdenTrust Root Certificate (security-libs/java.security)
+Other notes
+
+Release Doesn't Correctly Recognize Windows 11 (core-libs/java.lang)
+System Property to Control Reconstruction of Reference Address Objects by JDK's Built-in JNDI LDAP Implementation (core-libs/javax.naming)
+Release Doesn't Correctly Recognize Windows Server 2022 (hotspot/runtime)
+OperatingSystemMXBean.getProcessCpuLoad Is Now Container Aware (hotspot/runtime)
+Bug fixes
+
+21 bug fixes[352]"
+-,-,-,18-01-2022,-,-,Java SE 17.0.2[353],"Removed features and options
+Removed Google's GlobalSign Root Certificate (security-libs/java.security)
+Other notes
+
+Extended Delay Before JDK Executable Installer Starts From Network Drive (install/install)
+file.encoding System Property Has an Incorrect Value on Windows (core-libs/java.io)
+Zip File System Provider Throws ZipException When Entry Name Element Contains ""."" or "".."" (core-libs/java.nio)
+Update Timezone Data to 2021c (core-libs/java.time)
+ZGC: Fixed long Process Non-Strong References times (hotspot/gc)
+Bug fixes
+
+164 bug fixes[354]"
+-,-,-,19-04-2022,-,-,Java SE 17.0.3[355],"New features
+New XML Processing Limits (xml/jaxp)
+Other notes
+
+Only Expose Certificates With Proper Trust Settings as Trusted Certificate Entries in macOS KeychainStore (security-libs/java.security)
+Parsing of URL Strings in Built-in JNDI Providers Is More Strict (core-libs/javax.naming)
+Bug fixes
+
+48 bug fixes[356]"
+-,-,-,02-05-2022,-,-,Java SE 17.0.3.1[357],"Changes
+New System Property to Disable Windows Alternate Data Stream Support in java.io.File (core-libs/java.io)
+Bug fixes
+
+2 bug fixes[358]"
+-,-,-,19-07-2022,-,-,Java SE 17.0.4[359],"New features
+HTTPS Channel Binding Support for Java GSS/Kerberos (core-libs/java.net)
+Other notes
+
+Update java.net.InetAddress to Detect Ambiguous IPv4 Address Literals (core-libs/java.net)
+Default JDK Compressor Will Be Closed when IOException Is Encountered (core-libs/java.util.jar)
+CPU Shares Ignored When Computing Active Processor Count (hotspot/runtime)
+Bug fixes
+
+60 bug fixes[360]"
+-,-,-,18-08-2022,-,-,Java SE 17.0.4.1[361],"Changes
+C2 Compilation Errors Unpredictably Crashes JVM (hotspot/compiler)"
+-,-,-,18-10-2022,-,-,Java SE 17.0.5[362],"New features
+HTTPS Channel Binding Support for Java GSS/Kerberos (core-libs/java.net)
+Other notes
+
+Update java.net.InetAddress to Detect Ambiguous IPv4 Address Literals (core-libs/java.net)
+Default JDK Compressor Will Be Closed when IOException Is Encountered (core-libs/java.util.jar)
+CPU Shares Ignored When Computing Active Processor Count (hotspot/runtime)
+Bug fixes
+
+77 bug fixes[363]"
+-,-,-,17-01-2023,-,-,Java SE 17.0.6[364],"New features
+DTLS Resumption Uses HelloVerifyRequest Messages (security-libs/javax.net.ssl)
+Support for RSASSA-PSS in OCSP Response (security-libs/java.security)
+Known issues
+
+Installation of Oracle Linux Specific x64 JDK RPMs Pulls in i686 Dependencies (install/install)
+Other notes
+
+FXML JavaScript Engine Disabled by Default (javafx/fxml)
+Translated resource bundles for German (globalization)
+RPM JDK Installer Changes (install/install)
+Disable Side-by-Side Installations of Multiple JDK Updates in Windows JDK Installers (install/install)
+All JDK Update Releases Are Installed Into the Same Directory on macOS (install/install)
+Incorrect Handling of Quoted Arguments in ProcessBuilder (core-libs/java.lang)
+New Implementation Note for LoginModule on Removing Null from a Principals or Credentials set (security-libs/javax.security)
+Toolchain Upgrade to Visual Studio 2022 (infrastructure)
+Change in SSLEngine.closeInbound() Behavior (security-libs/javax.net.ssl)
+Bug fixes
+
+52 bug fixes[365]"
+-,-,-,18-04-2023,-,-,Java SE 17.0.7[366],"New features
+New JFR Event: jdk.InitialSecurityProperty (security-libs/java.security)
+Other notes
+
+System Property to Handle HTML ObjectView Creation (client-libs/javax.swing)
+Added Certigna(Dhimyotis) CA Certificate (security-libs/java.security)
+File::listRoots Changed to Return All Available Drives on Windows (core-libs/java.io)
+Throw Error If Default java.security File Fails to Load (security-libs/java.security)
+Crypto-J Exception for Diffie-Hellman and DSA AlgorithmParameters Requests (security-libs/java.security)
+Bug fixes
+
+69 bug fixes[367]"
+-,-,-,18-07-2023,-,-,Java SE 17.0.8[368],"New features
+Support for GB18030-2022 (core-libs/java.nio.charsets)
+Windows KeyStore Updated to Include Access to the Local Machine Location (security-libs/java.security)
+New JFR Event: jdk.SecurityProviderService (security-libs/java.security)
+Known issues
+
+Problem Upgrading JDK on Windows if System User Is Using Shared Files (install)
+Other notes
+
+System Property to Turn off JDK-8251329 Restrictions (core-libs/java.nio)
+Debian JDK Installer Changes (install/install)
+Missing /usr/java/default Symlink on Linux Restored (install/install)
+Installation of JDK RPM Corrupts Alternatives (install/install)
+Added TWCA Root CA Certificate (security-libs/java.security)
+Added 4 GTS Root CA Certificates (security-libs/java.security)
+Added Microsoft Corporation's 2 TLS Root CA Certificates (security-libs/java.security)
+GregorianCalender.computeTime() JVM Crash (hotspot/compiler)
+ASLR Support for CDS Archive (hotspot/runtime)
+New System Property to Control the Maximum Size of Signature Files (security-libs/java.security)
+Improved ZIP64 Extra Field Validation (core-libs/java.util.jar)
+Bug fixes
+
+56 bug fixes[369]"
+-,-,-,17-10-2023,-,-,Java SE 17.0.9[370],"New features
+-XshowSettings:locale Output Now Includes Tzdata Version (tools/launcher)
+Removed features and options
+
+Removed SECOM Trust System's RootCA1 Root Certificate (security-libs/java.security)
+Other notes
+
+Added Certigna Root CA Certificate (security-libs/java.security)
+The Default TLS Diffie-Hellman Group Size Has Been Increased from 1024-bit to 2048-bit (security-libs/javax.net.ssl)
+Bug fixes
+
+56 bug fixes[371]"
+-,-,-,16-01-2024,-,-,Java SE 17.0.10[372],"New features
+New System Property to Toggle XML Signature Secure Validation Mode (security-libs/javax.xml.crypto)
+Known issues
+
+Potential Performance Regression Due to Limited Range Check Elimination (hotspot/compiler)
+Other notes
+
+Increase Default Value of the System Property jdk.jar.maxSignatureFileSize (security-libs/java.security)
+Added Four Root Certificates from DigiCert, Inc. (security-libs/java.security)
+Added Three Root Certificates from eMudhra Technologies Limited (security-libs/java.security)
+Added Telia Root CA v2 Certificate (security-libs/java.security)
+Added ISRG Root X2 CA Certificate from Let's Encrypt (security-libs/java.security)
+Call X509KeyManager.chooseClientAlias Once for All Key Types (security-libs/javax.net.ssl)
+Bug fixes
+
+46 bug fixes[373]"
+-,-,-,22-03-2022,-,-,Java SE 18[375],Initial release
+-,-,-,19-04-2022,-,-,Java SE 18.0.1[376],"New features
+New XML Processing Limits (xml/jaxp)
+Other notes
+
+Only Expose Certificates With Proper Trust Settings as Trusted Certificate Entries in macOS KeychainStore (security-libs/java.security)
+Parsing of URL Strings in Built-in JNDI Providers Is More Strict (core-libs/javax.naming)
+Bug fixes
+
+18 bug fixes[377]"
+-,-,-,02-05-2022,-,-,Java SE 18.0.1.1[378],"core-libs/java.io
+New System Property to Disable Windows Alternate Data Stream Support in java.io.File (core-libs/java.io)
+Bug fixes
+
+2 bug fixes[379]"
+-,-,-,19-07-2022,-,-,Java SE 18.0.2[380],"Removed features and options
+Remove the Alternate ThreadLocal Implementation of the Subject::current and Subject::callAs APIs (security-libs/javax.security)
+Other notes
+
+java.net.InetAddress Updated to Reject Ambiguous IPv4 Address Literals (core-libs/java.net)
+CPU Shares Ignored When Computing Active Processor Count (hotspot/runtime)
+Lambda Deserialization Fails for Object Method References on Interfaces (tools/javac)
+Bug fixes
+
+49 bug fixes[381]"
+-,-,-,18-08-2022,-,-,Java SE 18.0.2.1[382],"Changes
+C2 Compilation Errors Unpredictably Crashes JVM (hotspot/compiler)"
+-,-,-,20-09-2022,-,-,Java SE 19[384],Initial release
+-,-,-,18-10-2022,-,-,Java SE 19.0.1[385],"Other notes
+Update Timezone Data to 2022c (core-libs/java.time)
+New System Property to Limit the Number of Open Connections to com.sun.net.httpserver.HttpServer (core-libs/java.net)
+Bug fixes
+
+6 bug fixes[386]"
+-,-,-,17-01-2023,-,-,Java SE 19.0.2[387],"New features
+DTLS Resumption Uses HelloVerifyRequest Messages (security-libs/javax.net.ssl)
+Other notes
+
+FXML JavaScript Engine Disabled by Default (javafx/fxml)
+Bug fixes
+
+28 bug fixes[388]"
+-,-,-,21-03-2023,-,-,Java SE 20[390],Initial release
+-,-,-,18-04-2023,-,-,Java SE 20.0.1[391],"Other notes
+System Property to Handle HTML ObjectView Creation (client-libs/javax.swing)
+Added Certigna(Dhimyotis) CA Certificate (security-libs/java.security)
+File::listRoots Changed to Return All Available Drives on Windows (core-libs/java.io)
+Bug fixes
+
+5 bug fixes[392]"
+-,-,-,18-07-2023,-,-,Java SE 20.0.2[393],"New features
+Support for GB18030-2022 (core-libs/java.nio.charsets)
+Known issues
+
+Problem Upgrading JDK on Windows if System User Is Using Shared Files (install)
+Other notes
+
+Missing /usr/java/default Symlink on Linux Restored (install/install)
+Installation of JDK RPM Corrupts Alternatives (install/install)
+Added TWCA Root CA Certificate (security-libs/java.security)
+Added 4 GTS Root CA Certificates (security-libs/java.security)
+Added Microsoft Corporation's 2 TLS Root CA Certificates (security-libs/java.security)
+ASLR Support for CDS Archive (hotspot/runtime)
+New System Property to Control the Maximum Size of Signature Files (security-libs/java.security)
+Improved ZIP64 Extra Field Validation (core-libs/java.util.jar)
+Bug fixes
+
+33 bug fixes[394]"
+-,-,-,19-09-2023,-,-,Java SE 21[396],Initial release
+-,-,-,17-10-2023,-,-,Java SE 21.0.1[397],"Other notes
+Added Certigna Root CA Certificate (security-libs/java.security)
+Increase Default Value of the System Property jdk.jar.maxSignatureFileSize (security-libs/java.security)
+Bug fixes
+
+40 bug fixes[398]"
+-,-,-,16-01-2024,-,-,Java SE 21.0.2[399],"New features
+TCP_KEEPxxxx Extended Socket Options Are Now Supported on the Windows Platform (core-libs/java.net)
+Known issues
+
+Potential Performance Regression Due to Limited Range Check Elimination (hotspot/compiler)
+Issues fixed
+
+ZGC: Reintroduced Support for Non-Default ObjectAlignmentInBytes (hotspot/compiler)
+Other notes
+
+Added Four Root Certificates from DigiCert, Inc. (security-libs/java.security)
+Added Three Root Certificates from eMudhra Technologies Limited (security-libs/java.security)
+Added Telia Root CA v2 Certificate (security-libs/java.security)
+Added ISRG Root X2 CA Certificate from Let's Encrypt (security-libs/java.security)
+NMT: Make Peak Values Available in Release Builds (hotspot/runtime)
+Add User Facing Warning If THPs Are Enabled but Cannot Be Used (hotspot/runtime)
+Bug fixes
+
+74 bug fixes[400]"
+-,-,-,16-04-2024,-,-,Java SE 21.0.3[401],"New features
+Update XML Security for Java to 3.0.3 (security-libs/javax.crypto)
+Known issues
+
+jpackage Apps May Fail to Build on Debian Linux Distros Due to Missing Shared Libraries (tools/jpackage)
+Other notes
+
+AWT SystemTray API Is Not Supported on Most Linux Desktops (client-libs/java.awt)
+Added Certainly R1 and E1 Root Certificates (security-libs/java.security)
+Align javac with the Java Language Specification by Rejecting final in Record Patterns (tools/javac)
+Updates to Third Party Libraries
+
+FreeType 2.13.2 (java.desktop)
+Xalan Java 2.7.3 (java.xml)
+XML Security for Java 3.0.3 (java.xml.crypto)
+Bug fixes
+
+27 bug fixes[402]"
